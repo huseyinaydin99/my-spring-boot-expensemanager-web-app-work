@@ -4,6 +4,16 @@ import tr.com.huseyinaydin.expensemanager.dto.ExpenseDTO;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
+//بسم الله الرحمن الرحيم
+
+/**
+ *
+ * @author Huseyin_Aydin
+ * @since 1994
+ * @category Java, Spring Boot.
+ *
+ */
+
 public class ExpenseValidator implements Validator {
     @Override
     public boolean supports(Class<?> clazz) {
