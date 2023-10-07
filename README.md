@@ -1,7 +1,7 @@
 ### my-spring-boot-expensemanager-web-app-work
 
-Harcama yöneticisi Web uygulamasıdır.<br />
-Sisteme kayıt olan kullanıcı giriş yaptıktan sonra yaptığı harcalamaları ve hesaplamalarını yönetir.
+Harcama yöneticisi Web uygulaması çalışmamdır.<br />
+Sisteme kayıt olan kullanıcı giriş yaptıktan sonra yaptığı harcalamaları ve hesaplamalarını CRUD operasyonları ile yönetir.
 
 
 ```
