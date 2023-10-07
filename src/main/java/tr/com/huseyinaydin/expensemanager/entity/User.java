@@ -6,6 +6,16 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
+//بسم الله الرحمن الرحيم
+
+/**
+ *
+ * @author Huseyin_Aydin
+ * @since 1994
+ * @category Java, Spring Boot.
+ *
+ */
+
 @Entity
 @Table(name = "tbl_users")
 @AllArgsConstructor
