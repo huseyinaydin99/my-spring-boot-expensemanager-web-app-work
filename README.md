@@ -1,9 +1,8 @@
 ### my-spring-boot-expensemanager-web-app-work
 
-```
 Harcama yöneticisi Web uygulamasıdır.
 Sisteme kayıt olan kullanıcı giriş yaptıktan sonra yaptığı harcalamaları ve hesaplamalarını yönetir.
-```
+
 
 ```
 Spring Boot + Spring Data JPA + Spring Security + Thymeleaf + SpEL
