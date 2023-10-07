@@ -1,4 +1,4 @@
-## my-spring-boot-expensemanager-web-app-work
+### my-spring-boot-expensemanager-web-app-work
 
 ```
 Harcama yöneticisi Web uygulamasıdır.
@@ -18,7 +18,8 @@ Strategy Desing Pattern, Repository Desing Pattern
 teknolojileri, tasarım şablonları ve teknikleri kullanılmıştır.
 ```
 
-# Görseller:
+### Görseller:
+
 ![H1](https://github.com/huseyinaydin99/my-spring-boot-expensemanager-web-app-work/assets/16438043/0891b39b-baac-488e-911d-e6f4061b758b)
 ![H2](https://github.com/huseyinaydin99/my-spring-boot-expensemanager-web-app-work/assets/16438043/f5c84676-bc44-4de5-8ff1-322d6eb1b67c)
 ![H3](https://github.com/huseyinaydin99/my-spring-boot-expensemanager-web-app-work/assets/16438043/6e5e800f-fa6e-42ef-b2ac-9f5101aba595)
@@ -34,7 +35,10 @@ teknolojileri, tasarım şablonları ve teknikleri kullanılmıştır.
 ![H13](https://github.com/huseyinaydin99/my-spring-boot-expensemanager-web-app-work/assets/16438043/53ac17eb-8bd3-45f4-8269-d3ef62843bca)
 ![H14](https://github.com/huseyinaydin99/my-spring-boot-expensemanager-web-app-work/assets/16438043/3c8252e9-3632-493c-b9f9-b52eaf590c16)
 
-# Video: 
+### Video: 
+
 https://github.com/huseyinaydin99/my-spring-boot-expensemanager-web-app-work/assets/16438043/4b7d0829-d332-4731-92cc-1b2afbb39462
-GitHub 10 MB büyüklüğünden fazla büyüklükte bir dosya kabul etmediği için videonun kaliteli halini YouTube'a yükledim. 
+
+GitHub 10 MB büyüklüğünden fazla büyüklükte bir dosya kabul etmediği için videonun kaliteli halini YouTube'a yükledim.
+
 Linki: https://youtu.be/o5mJ0Gqd0n0
