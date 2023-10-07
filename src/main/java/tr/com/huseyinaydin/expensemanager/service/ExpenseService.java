@@ -22,6 +22,16 @@ import tr.com.huseyinaydin.expensemanager.repository.ExpenseRepository;
 import tr.com.huseyinaydin.expensemanager.util.DateTimeUtil;
 import lombok.RequiredArgsConstructor;
 
+//بسم الله الرحمن الرحيم
+
+/**
+ *
+ * @author Huseyin_Aydin
+ * @since 1994
+ * @category Java, Spring Boot.
+ *
+ */
+
 @Service
 @RequiredArgsConstructor
 public class ExpenseService {
