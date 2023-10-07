@@ -6,6 +6,16 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import javax.servlet.http.HttpServletRequest;
 
+//بسم الله الرحمن الرحيم
+
+/**
+ *
+ * @author Huseyin_Aydin
+ * @since 1994
+ * @category Java, Spring Boot.
+ *
+ */
+
 @ControllerAdvice
 public class GlobalDefaultExceptionHandler {
 
