@@ -6,5 +6,24 @@ Sisteme kayıt olan kullanıcı giriş yaptıktan sonra yaptığı harcalamalar�
 ```
 
 ```
-Spring Boot + Spring Security + Spring Data JPA + Validation + Model Mapper + MySQL + Postgresql + Thymeleaf + N-Tier Architechture + ORM + IoC + DI + Strategy Desing Pattern + Repository Desing Pattern teknolojileri ve teknikleri kullanılmıştır. 
+Spring Boot
+Spring Data JPA
+Spring Security
+Thymeleaf
+SpEL
+Postgresql
+MySQL
+Lombok
+ModelMapper
+Validation
+Dev Tools
+IntelliJ IDEA
+N-Tier Architechture
+HTML
+CSS, JS, JQuery, Bootstrap
+Maven, SOLID, DRY
+ORM
+IoC, DI
+Strategy Desing Pattern, Repository Desing Pattern
+teknolojileri, tasarım şablonları ve teknikleri kullanılmıştır.
 ```
