@@ -1,0 +1,38 @@
+a:hover, a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button_default, .button_default:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.help-block {
+    color: #bd0000;
+}
+
+.font-size-medium {
+    font-size: 1.6rem;
+}
+
+.font-size-small {
+    font-size: 1.2rem;
+}
+
+.font-size-xsmall {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

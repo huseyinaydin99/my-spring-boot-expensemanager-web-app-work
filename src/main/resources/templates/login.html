@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giriş Sayfası - Harcama Yöneticisi</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}" />
+    <link rel="stylesheet" th:href="@{/css/base.css}" />
+    <link rel="stylesheet" th:href="@{/css/login.css}" />
+</head>
+<body>
+    <div class="box-layout justify-content-center">
+        <div class="card box-layout__box text-center">
+
+            <div class="card-header border-bottom-0 pb-0 bg-white">
+
+                <h3 class="box-layout__title">Harcama Yöneticisi</h3>
+                <p class="box-layout__title">Harcamalarını her zaman kolayca yönet!</p>
+            </div>
+
+            <div class="card-body pt-0">
+
+                <form id="loginForm" th:action="@{/login}" method="post">
+                    <div th:if="${param.error}">
+                        <div class="alert help-block">
+                            Geçersiz e-posta adresi.
+                        </div>
+                    </div>
+                    <div th:if="${param.logout}">
+                        <div class="alert help-block">
+                            Uygulamadan çıkış yaptınız.
+                        </div>
+                    </div>
+                    <input type="text"
+                           name="email"
+                           placeholder="E-posta giriniz"
+                           class="form-control mb-3"
+                           autofocus="autofocus" />
+
+                    <input type="password"
+                           name="password"
+                           placeholder="Şifre giriniz"
+                           class="form-control mb-3" />
+
+                    <button type="submit" class="btn form-control button_default text">Giriş Yap</button>
+                </form>
+
+            </div>
+
+            <div class="card-footer bg-white border-top-0">
+                <span class="float-right">
+                    Yeni Üye Kaydı - <a th:href="@{/register}"
+                                   class="base-color font-weight-bold">Kaydol</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script th:src="@{/js/jquery.js}"></script>
+    <script th:src="@{/js/jquery-validator.js}"></script>
+    <script th:src="@{/js/bootstrap.js}"></script>
+    <script th:src="@{/js/login.js}"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}" />
+    <link rel="stylesheet" th:href="@{/css/base.css}" />
+    <link rel="stylesheet" th:href="@{/css/response.css}" />
+</head>
+<body>
+    <nav class="fixed-top bg-header-color py-4">
+        <div class="app-header">
+            <div class="d-flex justify-content-between align-items-center">
+                <a th:href="@{/expenses}" class="text-white">
+                        <span class="font-size-medium font-weight-bold">
+                            Harcama Yöneticisi
+                        </span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div th:if="${successMsg}" class="container p-5 my-5 border container-top-margin">
+        <h3>Kayıt işleminiz başarılı!</h3>
+        <p>Harcama Yöneticisine kaydolduğunuz için teşekkürler. Harcamalarınızı kaydetmeye başlayabilirsiniz.</p>
+        <a th:href="@{/login}" class="btn button_default">Şimdi Giriş Yap</a>
+    </div>
+  <div th:if="${notFound}" class="container p-5 my-5 border container-top-margin">
+    <h1>Harcama yok, henüz girilmedi ya da var olanları silindiniz.</h1>
+    <p th:text="${message}"></p>
+    <a th:href="@{/expenses}" class="btn button_default">Ana Sayfa</a>
+  </div>
+  <div th:if="${serverError}" class="container p-5 my-5 border container-top-margin">
+      <h1>Yönetici ile iletişime geçin.</h1>
+      <p>Bir şeyler yanlış gitti! Lütfen yöneticiyle iletişime geçin veya huseyinaydin99@gmail.com adresine bir e-posta yazın.</p>
+      <p th:text="${message}"></p>
+      <a th:href="@{/expenses}" class="btn button_default">Ana Sayfa</a>
+  </div>
+    <footer class="py-5">
+        <div class="container">
+            <p class="m-0 text-center text-dark">
+                Copyright &copy; Harcama Yöneticisi - 2023 Tasarlayan ve Geliştiren Hüseyin Aydın (huseyinaydin99@gmail.com)
+            </p>
+        </div>
+    </footer>
+    <script th:src="@{/js/bootstrap.js}"></script>
+</body>
+</html>
