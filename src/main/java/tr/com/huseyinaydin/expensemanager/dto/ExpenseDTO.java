@@ -12,6 +12,16 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+//بسم الله الرحمن الرحيم
+
+/**
+ *
+ * @author Huseyin_Aydin
+ * @since 1994
+ * @category Java, Spring Boot.
+ *
+ */
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
