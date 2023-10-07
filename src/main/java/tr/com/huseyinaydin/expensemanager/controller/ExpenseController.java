@@ -20,6 +20,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.validation.Valid;
 
+//بسم الله الرحمن الرحيم
+
+/**
+ *
+ * @author Huseyin_Aydin
+ * @since 1994
+ * @category Java, Spring Boot.
+ *
+ */
+
 @Controller
 @RequiredArgsConstructor
 public class ExpenseController {
