@@ -1,11 +1,11 @@
 ### my-spring-boot-expensemanager-web-app-work
 
 Harcama yöneticisi Web uygulaması çalışmamdır.<br />
-Sisteme kayıt olan kullanıcı giriş yaptıktan sonra yaptığı harcalamaları ve hesaplamalarını CRUD operasyonları ile yönetir.
+Sisteme kayıt olan kullanıcı giriş yaptıktan sonra yaptığı harcamaları ve hesaplamalarını CRUD operasyonları ile yönetir.
 
 
 ```
-Spring Boot + Spring Data JPA + Spring Security + Thymeleaf + SpEL
+Spring Boot + Spring Data JPA + Spring MVC + Spring Security + Thymeleaf + SpEL
 Postgresql + MySQL
 Lombok + ModelMapper + Validation
 Dev Tools + IntelliJ IDEA + Maven
